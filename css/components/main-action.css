@@ -1,0 +1,29 @@
+.main-action {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 47px;
+}
+
+.main-action.-about {
+    opacity: 50%;
+}
+
+.main-action.-second {
+    color: #783BFF;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 26px;
+}
+
+.main-action.-signUp {
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #E1E4EB;
+    border-radius: 5px;
+    margin: 0;
+}

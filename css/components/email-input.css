@@ -1,0 +1,18 @@
+.email-input {
+    display: inline-block;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+    width: 255px;
+    height: 50px;
+    background: #F8F8F8;
+    border-radius: 5px;
+    border-style: none;
+    margin-right: 16px;
+
+}
+
+.email-input::placeholder {
+    color: #A9ABBD;
+}

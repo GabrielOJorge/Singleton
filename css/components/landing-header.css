@@ -1,0 +1,7 @@
+.landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 23px 145px;
+    margin-bottom: 73px;
+}
