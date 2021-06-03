@@ -8,17 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/landing-header.css">
-    <link rel="stylesheet" href="css/components/main-action.css">
-    <link rel="stylesheet" href="css/components/main-title.css">
-    <link rel="stylesheet" href="css/components/main-subtitle.css">
-    <link rel="stylesheet" href="css/components/main-container.css">
-    <link rel="stylesheet" href="css/components/container-txt.css">
-    <link rel="stylesheet" href="css/components/box-container.css">
-    <link rel="stylesheet" href="css/components/email-input.css">
-    <link rel="stylesheet" href="css/components/main-button.css">
-    <link rel="stylesheet" href="css/components/main-form.css">
 
+    <div name="landing_section-links">
+        <link rel="stylesheet" href="css/components/landing-section/landing-header.css">
+        <link rel="stylesheet" href="css/components/landing-section/main-action.css">
+        <link rel="stylesheet" href="css/components/landing-section/main-title.css">
+        <link rel="stylesheet" href="css/components/landing-section/main-subtitle.css">
+        <link rel="stylesheet" href="css/components/landing-section/main-container.css">
+        <link rel="stylesheet" href="css/components/landing-section/container-txt.css">
+        <link rel="stylesheet" href="css/components/landing-section/box-container.css">
+        <link rel="stylesheet" href="css/components/landing-section/email-input.css">
+        <link rel="stylesheet" href="css/components/landing-section/submit-btn.css">
+        <link rel="stylesheet" href="css/components/landing-section/main-form.css">
+        <link rel="stylesheet" href="css/components/landing-section/email-icon.css">
+        <link rel="stylesheet" href="css/components/landing-section/brand-icons.css">
+    </div>
+    <div name="banner1_section-links">
+        
+    </div>
 </head>
 <body>
     <section>
@@ -38,21 +45,37 @@
             </div>
         </header>
 
+        
         <div class="main-container">
             <div class="box-container">
                 <div class="container-txt">
                     <h1 class="main-title">Make more time for the work that matters most</h1>
                     <h2 class="main-subtitle">Create screens directly in Singleton or add your images from Sketch or Figma. You can even sync designs from your cloud storage!</h2>
 
-                    <div class="main-form">
-                        <input class="email-input" type="email" placeholder="Type your e-mail">
-                        <a href="" class="main-button">Get Started</a>
-                    </div>
+                    <form class="main-form">
+                        <div class="email-box">
+                            <img class="email-icon" src="assets/img/mail 1.png" alt="email-icon">
+                            <input class="email-input" type="text" name="email" placeholder="Type your e-mail">
+                        </div>
+
+                        <input class="submit-btn" type="submit" name="action" value="Get Started">
+                    </form>
                 </div>
 
                 <img src="assets/img/Group 5.png" alt="girl-img">
             </div>
+
+            <div class="brand-icons">
+                <img src="assets/img/google-logo.png" alt="google-logo">
+                <img src="assets/img/leaf-logo.png" alt="leaf-logo">
+                <img src="assets/img/uber-logo.png" alt="uber-logo">
+                <img src="assets/img/stripe-logo.png" alt="stripe-logo">
+                <img src="assets/img/nike-logo.png" alt="nike-logo">
+                <img src="assets/img/airbnb-logo.png" alt="airbnb-logo">
+                <img src="assets/img/mastercard-logo.png" alt="mastercard-logo">
+            </div>
         </div>
+
     </section>
 </body>
 </html>

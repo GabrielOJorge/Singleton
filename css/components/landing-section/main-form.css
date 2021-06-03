@@ -1,0 +1,15 @@
+.main-form {
+    display: flex;
+    align-items: center;
+}
+
+.main-form .email-box {
+    display: flex;
+    align-items: center;
+    width: 255px;
+    height: 50px;
+    
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    margin-right: 16px;
+}

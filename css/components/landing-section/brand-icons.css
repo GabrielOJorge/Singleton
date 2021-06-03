@@ -1,0 +1,10 @@
+.brand-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1110px;
+    height: 75px;
+    border-top: 1px solid #E1E4EB;
+    margin-top: 120px;
+}
