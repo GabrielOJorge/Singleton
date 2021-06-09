@@ -1,0 +1,11 @@
+.api-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 65px;
+    height: 65px;
+    background-color: #FFE6DF;
+    border-radius: 22px;
+    margin-right: 23px;
+}

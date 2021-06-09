@@ -1,0 +1,14 @@
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 350px;
+    height: 400px;
+
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}

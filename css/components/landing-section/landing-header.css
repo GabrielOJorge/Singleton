@@ -1,5 +1,6 @@
 .landing-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 23px 145px;

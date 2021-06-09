@@ -1,7 +1,18 @@
 .main-subtitle {
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     line-height: 32px;
     opacity: 40%;
     margin-top: 33px;
     margin-bottom: 46px;
+}
+
+.main-subtitle.-second {
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.main-subtitle.-third {
+    margin: 0;
+    text-align: center;
 }
