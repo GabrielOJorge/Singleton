@@ -34,3 +34,26 @@
     border-radius: 5px;
     margin: 0;
 }
+
+.main-action.-select-plan {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 290px;
+    height: 50px;
+    border: 1px solid #E1E4EB;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.main-action.-blackSelect-plan {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: #783BFF;
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0;
+}

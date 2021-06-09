@@ -1,0 +1,49 @@
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 430px;
+    width: 350px;
+    border: 1px solid #E1E4EB;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.plan-card .info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.plan-card .main-subtitle.-card-type {
+    margin-bottom: 20px;
+}
+
+.plan-card .main-subtitle.-starter-plan {
+    margin-bottom: 37px;
+}
+
+.plan-card .main-title.-card-title {
+    margin-bottom: 45px;
+}
+
+.plan-card .info.-middle {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.plan-card .info.-bottom {
+    margin-bottom: 54px;
+}
+
+.plan-card .price {
+    display: flex;
+    align-items: baseline;
+}
+
+.plan-card.-black {
+    background-color: #000;
+    color: #fff;
+}
