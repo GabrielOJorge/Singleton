@@ -1,0 +1,7 @@
+.info-section {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 150px;
+    height: 260px;
+    background-color: #000
+}

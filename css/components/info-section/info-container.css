@@ -1,0 +1,8 @@
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 37px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #E1E4EB;
+}
